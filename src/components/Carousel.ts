@@ -224,6 +224,7 @@ export default defineComponent({
       if (draggedSlides && !isTouch) {
         const captureClick = (e: MouseEvent) => {
           e.stopPropagation()
+          e.preventDefault()
           window.removeEventListener('click', captureClick, true)
         }
         window.addEventListener('click', captureClick, true)
