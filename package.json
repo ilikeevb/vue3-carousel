@@ -1,5 +1,5 @@
 {
-  "name": "vue3-carousel",
+  "name": "vue3-carousel-fork",
   "version": "0.3.2",
   "scripts": {
     "build": "rollup -c",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ismail9k/vue3-carousel.git"
+    "url": "https://github.com/ilikeevb/vue3-carousel.git"
   },
   "main": "dist/carousel.js",
   "module": "dist/carousel.es.js",
